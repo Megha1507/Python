@@ -4,10 +4,10 @@ Please type in the math operation you would like to complete:
 + for addition
 - for subtraction
 * for multiplication
-/ for division
+/ for division :-
 ''')
-    num1 = int(input("Enter 1st number : "))
-    num2 = int(input("Enter 2nd number : "))
+    num1 = float(input("Enter 1st number : "))
+    num2 = float(input("Enter 2nd number : "))
     if operation == '+':
         print('{} + {} = '.format(num1, num2))
         print(num1 + num2)
